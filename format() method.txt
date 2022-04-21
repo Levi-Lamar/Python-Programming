@@ -1,0 +1,7 @@
+#format() method
+greeting = 'Hello'
+name = str(input('name = '))
+email = str(input('email = '))
+
+message = '{} {} ({}). Welcome!'.format (greeting, name, email)
+print(message)
